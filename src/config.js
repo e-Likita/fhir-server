@@ -76,7 +76,7 @@ let fhirServerConfig = {
   // },
   //
   profiles: {
-    Account: {
+    /*  Account: {
       service: './src/services/account/account.service.js',
       versions: PROFILE_VERSIONS,
     },
@@ -95,7 +95,7 @@ let fhirServerConfig = {
     Condition: {
       service: './src/services/condition/condition.service.js',
       versions: PROFILE_VERSIONS,
-    },
+    }, */
     Patient: {
       service: './src/services/patient/patient.service.js',
       versions: PROFILE_VERSIONS,
